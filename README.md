@@ -203,6 +203,16 @@ and read in custom file to `/etc/grub.d/40_custom`, inside vim:
 ```
 
 ## Managing Linux Processes
+### Listing Processes with ps
+```
+$ ps -elf | grep sshd
+$ ps aux | grep sshd
+```
+
+### Using the /proc directory and the $$ Variable
+### Send Signals with kill
+### Shortcuts with pgrep, pkill, and top
+
 ## Process Priority
 ## Monitor Linux Performance
 ## Using Sysstat to Monitor Performance
